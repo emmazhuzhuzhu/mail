@@ -54,7 +54,7 @@ public class LoginPage {
 		Thread.sleep(5000);
 		System.out.println("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa----------------------");
 	
-		//输入用户名密码，点击登录 	klalal
+		//输入用户名密码，点击登录 	
 		WebElement userName = driver.findElement(By.name("email"));
 		userName.sendKeys("juanhdk@163.com");
 		WebElement password = driver.findElement(By.name("password"));
