@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class TestNGPractice {
 	
-	@Test
+	@Test(enabled=false)
 	public void testEmailGenerator(){
 		RandomEmailGenerator emailGenerator = new RandomEmailGenerator();
 		String email = emailGenerator.generate();

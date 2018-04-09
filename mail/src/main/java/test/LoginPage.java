@@ -12,12 +12,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.Test;
 //import org.openqa.selenium.interactions.Action;
 
 
 
 public class LoginPage {
 
+	@Test
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		
